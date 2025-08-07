@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Recherche inversée d'image",
+  "version": "1.0",
+  "description": "Faites une recherche inversée via clic droit sur Google, Yandex, Bing, ou TinEye.",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "action": {
+    "default_title": "Recherche inversée d'image"
+  }
+}
